@@ -97,7 +97,10 @@ main {
             border-radius: .5rem;
             padding-block: .6rem;
             background: var(--sherpa-blue);
+        }
 
+        .button-selected {
+            background: var(--topaz);
         }
 
         input{
