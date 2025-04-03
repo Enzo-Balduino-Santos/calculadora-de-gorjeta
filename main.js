@@ -12,9 +12,10 @@ let numberOfPeopleInput = document.querySelector("#people")
 numberOfPeopleInput.addEventListener("input", receiveNumberOfPeopleValue)
 
 function receiveBillValue() {
-    bill = billInput.valueAsNumber
-
+    bill = document.querySelector("#bill").valueAsNumber
     calculate()
+
+    
 }
 
 function receiveNumberOfPeopleValue() {
